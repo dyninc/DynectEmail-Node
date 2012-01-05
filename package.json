@@ -8,7 +8,7 @@
   ], 
   "repository": {
     "type": "git",
-    "url": "http://github.com/dyninc/dynectemail-node.git"
+    "url": "http://github.com/dyninc/dynectemail-node"
   },
   "engine": [
     "node >= 0.2.6"
