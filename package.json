@@ -1,7 +1,7 @@
 {
   "name": "dynectemail",
   "description": "Read and write to DynECT Email REST API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "John Norton <jnorton@dyn.com>",
   "contributors": [
 	  "Joe Stelmach <jstelmach@dyn.com>"
