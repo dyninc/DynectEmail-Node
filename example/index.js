@@ -4,7 +4,12 @@ var DynectEmailNode = require('./../lib/dynectemail/index').DynectEmailNode;
  * Init object
  */
 var dynectemail = new DynectEmailNode({
-	apikey: 'apikey'
+	apikey: 'apikey',
+	//useragent: 'my-app' // Change the user agent. Default is 'dynectemail-node'
+	//secure: true,       // True will use port 443 instead of 80
+	//format: 'xml',      // Possible formats: 'json', 'xml', 'html'. Default is json
+	                      // Please note if you change the format from json the example below wont work. 
+	                      // 'data' will no longer be an object it will be a string.
 });
 
 /*
