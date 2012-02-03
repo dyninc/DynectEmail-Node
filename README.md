@@ -11,8 +11,10 @@ Read and write DynECT Email.
 	var DynectEmailNode = require('dynectemail').DynectEmailNode;
 
 	var dynectemail = new DynectEmailNode({
-		apikey: 'apikey' //you can get this from the Integration page http://email.dynect.net/index.php?Page=Integration
-		useragent: 'appname/vX.X MyApp' // optional. defaults to dynectemail-node.
+		apikey: 'apikey',                // Required. You can get this from the Integration page http://email.dynect.net/index.php?Page=Integration
+		useragent: 'appname/vX.X MyApp', // Optional. Defaults to 'dynectemail-node'.
+		format: 'json',                  // Optional. Defaults to 'json'. (json, xml, html)
+		secure: true                     // Optional. Defaults to false. Will force ssl(port 443) if true.
 	});
 
 ## Documentation
