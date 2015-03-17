@@ -1,17 +1,18 @@
 {
   "name": "dynectemail",
   "description": "Read and write to DynECT Email REST API",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "John Norton <jnorton@dyn.com>",
   "contributors": [
-	  "Joe Stelmach <jstelmach@dyn.com>"
+    "Joe Stelmach <jstelmach@dyn.com>",
+    "Ethan LaRochelle <elarochelle@dyn.com>"
   ], 
   "repository": {
     "type": "git",
     "url": "http://github.com/dyninc/dynectemail-node"
   },
   "engine": [
-    "node >= 0.2.6"
+    "node >= 0.4.0"
   ],
   "directories": {
     "lib": "./lib/dynectemail"
