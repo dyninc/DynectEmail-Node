@@ -1,7 +1,7 @@
 {
   "name": "dynectemail",
   "description": "Read and write to DynECT Email REST API",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "John Norton <jnorton@dyn.com>",
   "contributors": [
     "Joe Stelmach <jstelmach@dyn.com>",
@@ -18,7 +18,8 @@
     "lib": "./lib/dynectemail"
   },
   "dependencies" : {
-    "underscore": ""
+    "underscore": "",
+    "qs": "2.4.1"
   },
   "devDependencies": {
     "gently" : ""
