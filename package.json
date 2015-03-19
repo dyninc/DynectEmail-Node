@@ -18,7 +18,8 @@
     "lib": "./lib/dynectemail"
   },
   "dependencies" : {
-    "underscore": ""
+    "underscore": "",
+    "qs": "2.4.1"
   },
   "devDependencies": {
     "gently" : ""
